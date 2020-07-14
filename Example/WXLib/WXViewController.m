@@ -7,7 +7,7 @@
 //
 
 #import "WXViewController.h"
-
+#import <WXLib/ViewController.h>
 @interface WXViewController ()
 
 @end
@@ -17,6 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    ViewController *view = [[ViewController alloc] init];
+    [view log];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
